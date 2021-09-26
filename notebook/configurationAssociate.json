@@ -8,7 +8,7 @@
 			"type": "BigDataPoolReference"
 		},
 		"targetSparkConfiguration": {
-			"referenceName": "sparkConfiguration1testMemory",
+			"referenceName": "Group_Validation_TimeValue_Demo",
 			"type": "SparkConfigurationReference"
 		},
 		"sessionProperties": {
@@ -48,7 +48,7 @@
 				"memory": 56
 			},
 			"sessionKeepAliveTimeout": 30,
-			"targetSparkConfiguration": "sparkConfiguration1testMemory"
+			"targetSparkConfiguration": "Group_Validation_TimeValue_Demo"
 		},
 		"cells": [
 			{
