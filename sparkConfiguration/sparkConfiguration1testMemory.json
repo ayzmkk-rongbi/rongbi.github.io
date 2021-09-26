@@ -1,0 +1,16 @@
+{
+	"name": "sparkConfiguration1testMemory",
+	"properties": {
+		"description": "sparkConfiguration1testMemory",
+		"configs": {
+			"spark.blacklist.killBlacklistedExecutors": "tt",
+			"spark.driver.cores": "11"
+		},
+		"created": "2021-09-07T15:30:05.2180000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": [
+			"do not delete",
+			"rongbi"
+		]
+	}
+}
