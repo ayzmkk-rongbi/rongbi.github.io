@@ -1,0 +1,38 @@
+{
+	"name": "WordCount",
+	"properties": {
+		"targetBigDataPool": {
+			"referenceName": "rongbiPool",
+			"type": "BigDataPoolReference"
+		},
+		"targetSparkConfiguration": {
+			"referenceName": "Group_Validation_TimeValue_Demo",
+			"type": "SparkConfigurationReference"
+		},
+		"requiredSparkVersion": "2.4",
+		"language": "scala",
+		"jobProperties": {
+			"name": "WordCount",
+			"file": "abfss://kaizhoworkspace2@kaizhoworkspace2.dfs.core.windows.net/wordcount/wordcount_2.11-0.1.jar",
+			"className": "WordCount",
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "1",
+				"spark.dynamicAllocation.maxExecutors": "4",
+				"spark.autotune.trackingId": "dadbfa71-9fbc-4401-92a0-cea8162c7ab8",
+				"spark.files.fetchTimeout": "helloworld"
+			},
+			"args": [
+				"abfss://kaizhoworkspace2@kaizhoworkspace2.dfs.core.windows.net/data/tpch/raw/300g/lineitem.tbl",
+				"abfss://kaizhoworkspace2@kaizhoworkspace2.dfs.core.windows.net/wordcount/output/"
+			],
+			"jars": [],
+			"files": [],
+			"driverMemory": "56g",
+			"driverCores": 8,
+			"executorMemory": "56g",
+			"executorCores": 8,
+			"numExecutors": 4
+		}
+	}
+}
