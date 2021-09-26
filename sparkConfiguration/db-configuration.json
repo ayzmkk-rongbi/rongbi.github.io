@@ -1,0 +1,16 @@
+{
+	"name": "db-configuration",
+	"properties": {
+		"description": "test configuration",
+		"configs": {
+			"spark.databricks.cluster.profile": "serverless",
+			"spark.checkpoint.compress": "true",
+			"spark.io.cache.enabled": "true"
+		},
+		"created": "2021-09-26T11:55:16.6750000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": [
+			"jonney configuration"
+		]
+	}
+}
