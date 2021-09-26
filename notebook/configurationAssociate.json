@@ -8,7 +8,7 @@
 			"type": "BigDataPoolReference"
 		},
 		"targetSparkConfiguration": {
-			"referenceName": "db-configuration",
+			"referenceName": "sparkConfiguration1testMemory",
 			"type": "SparkConfigurationReference"
 		},
 		"sessionProperties": {
@@ -48,7 +48,7 @@
 				"memory": 56
 			},
 			"sessionKeepAliveTimeout": 30,
-			"targetSparkConfiguration": "db-configuration"
+			"targetSparkConfiguration": "sparkConfiguration1testMemory"
 		},
 		"cells": [
 			{
