@@ -1,0 +1,12 @@
+{
+	"name": "Group_Validation_TimeValue_Demo",
+	"properties": {
+		"configs": {
+			"spark.network.timeout": "120s",
+			"spark.executor.heartbeatInterval": "10s"
+		},
+		"created": "2021-09-16T18:02:09.8560000+08:00",
+		"createdBy": "v-xuegao@microsoft.com",
+		"annotations": []
+	}
+}
