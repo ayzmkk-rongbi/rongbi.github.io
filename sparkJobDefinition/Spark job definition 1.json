@@ -1,0 +1,37 @@
+{
+	"name": "Spark job definition 1",
+	"properties": {
+		"targetBigDataPool": {
+			"referenceName": "rongbiPool",
+			"type": "BigDataPoolReference"
+		},
+		"targetSparkConfiguration": {
+			"referenceName": "db-configuration",
+			"type": "SparkConfigurationReference"
+		},
+		"requiredSparkVersion": "2.4",
+		"language": "scala",
+		"jobProperties": {
+			"name": "Spark job definition 1",
+			"file": "abfss://synapsews1@chayangstoragewestus2.dfs.core.windows.net/user/rongbi/jars/wordcount_2.11-0.1.jar",
+			"className": "WordCount",
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "1",
+				"spark.dynamicAllocation.maxExecutors": "4",
+				"spark.autotune.trackingId": "05a33624-4f0e-4c8c-9a16-3c3a9258a7df"
+			},
+			"args": [
+				"abfss://synapsews1@chayangstoragewestus2.dfs.core.windows.net/user/rongbi/hello_word9.txt",
+				"abfss://synapsews1@chayangstoragewestus2.dfs.core.windows.net/user/rongbi/output/"
+			],
+			"jars": [],
+			"files": [],
+			"driverMemory": "56g",
+			"driverCores": 8,
+			"executorMemory": "56g",
+			"executorCores": 8,
+			"numExecutors": 4
+		}
+	}
+}
