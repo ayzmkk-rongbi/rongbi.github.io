@@ -7,10 +7,6 @@
 			"referenceName": "rongbiPool",
 			"type": "BigDataPoolReference"
 		},
-		"targetSparkConfiguration": {
-			"referenceName": "Group_Validation_TimeValue_Demo",
-			"type": "SparkConfigurationReference"
-		},
 		"sessionProperties": {
 			"driverMemory": "56g",
 			"driverCores": 8,
@@ -48,8 +44,7 @@
 				"memory": 56,
 				"automaticScaleJobs": false
 			},
-			"sessionKeepAliveTimeout": 30,
-			"targetSparkConfiguration": "Group_Validation_TimeValue_Demo"
+			"sessionKeepAliveTimeout": 30
 		},
 		"cells": [
 			{
