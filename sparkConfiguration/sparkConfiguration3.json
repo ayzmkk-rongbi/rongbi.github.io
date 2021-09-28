@@ -2,9 +2,9 @@
 	"name": "sparkConfiguration3",
 	"properties": {
 		"configs": {
-			"d": "d"
+			"spark.authenticate.secret": "dd"
 		},
-		"created": "2021-09-28T00:11:19.1370000+08:00",
+		"created": "2021-09-28T12:42:32.8890000+08:00",
 		"createdBy": "rongbi@microsoft.com",
 		"annotations": []
 	}
