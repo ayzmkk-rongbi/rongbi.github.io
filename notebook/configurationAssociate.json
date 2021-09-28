@@ -8,7 +8,7 @@
 			"type": "BigDataPoolReference"
 		},
 		"targetSparkConfiguration": {
-			"referenceName": "sparkConfiguration4",
+			"referenceName": "sparkConfiguration6",
 			"type": "SparkConfigurationReference"
 		},
 		"sessionProperties": {
@@ -49,7 +49,7 @@
 				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30,
-			"targetSparkConfiguration": "sparkConfiguration4"
+			"targetSparkConfiguration": "sparkConfiguration6"
 		},
 		"cells": [
 			{
