@@ -7,6 +7,10 @@
 			"referenceName": "rongbiPool",
 			"type": "BigDataPoolReference"
 		},
+		"targetSparkConfiguration": {
+			"referenceName": "sparkConfiguration4",
+			"type": "SparkConfigurationReference"
+		},
 		"sessionProperties": {
 			"driverMemory": "56g",
 			"driverCores": 8,
@@ -44,7 +48,8 @@
 				"memory": 56,
 				"automaticScaleJobs": false
 			},
-			"sessionKeepAliveTimeout": 30
+			"sessionKeepAliveTimeout": 30,
+			"targetSparkConfiguration": "sparkConfiguration4"
 		},
 		"cells": [
 			{
