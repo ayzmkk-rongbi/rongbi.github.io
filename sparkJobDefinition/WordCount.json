@@ -6,7 +6,7 @@
 			"type": "BigDataPoolReference"
 		},
 		"targetSparkConfiguration": {
-			"referenceName": "sparkConfiguration2",
+			"referenceName": "sparkConfiguration4",
 			"type": "SparkConfigurationReference"
 		},
 		"requiredSparkVersion": "2.4",
@@ -19,7 +19,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "1",
 				"spark.dynamicAllocation.maxExecutors": "4",
-				"spark.autotune.trackingId": "81d58da7-7768-4e83-ae45-92a08eb5548a",
+				"spark.autotune.trackingId": "199b914c-505b-49c9-9de0-244a91246466",
 				"spark.files.fetchTimeout": "helloworld"
 			},
 			"args": [

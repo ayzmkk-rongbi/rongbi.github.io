@@ -1,0 +1,11 @@
+{
+	"name": "sparkConfiguration4",
+	"properties": {
+		"configs": {
+			"spark.buffer.size": "11"
+		},
+		"created": "2021-09-28T12:46:31.3910000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": []
+	}
+}
