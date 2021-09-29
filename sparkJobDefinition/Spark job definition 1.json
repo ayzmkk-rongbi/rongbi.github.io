@@ -6,7 +6,7 @@
 			"type": "BigDataPoolReference"
 		},
 		"targetSparkConfiguration": {
-			"referenceName": "sparkConfiguration1",
+			"referenceName": "helloWWW",
 			"type": "SparkConfigurationReference"
 		},
 		"requiredSparkVersion": "2.4",
@@ -19,7 +19,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "1",
 				"spark.dynamicAllocation.maxExecutors": "4",
-				"spark.autotune.trackingId": "4f0c2377-9bc3-4a41-8d40-01ad94246bd8"
+				"spark.autotune.trackingId": "878c8d8e-3b12-4edc-b48f-9e952535e7df"
 			},
 			"args": [
 				"abfss://synapsews1@chayangstoragewestus2.dfs.core.windows.net/user/rongbi/hello_word9.txt",
