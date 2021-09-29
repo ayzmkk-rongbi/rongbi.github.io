@@ -8,7 +8,7 @@
 			"type": "BigDataPoolReference"
 		},
 		"targetSparkConfiguration": {
-			"referenceName": "sparkConfiguration6",
+			"referenceName": "helloDescription",
 			"type": "SparkConfigurationReference"
 		},
 		"sessionProperties": {
@@ -20,7 +20,8 @@
 			"conf": {
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "4",
-				"spark.dynamicAllocation.maxExecutors": "4"
+				"spark.dynamicAllocation.maxExecutors": "4",
+				"spark.autotune.trackingId": "198e94b8-02ad-40d9-ac06-deaadbb3a1a3"
 			}
 		},
 		"metadata": {
@@ -49,7 +50,7 @@
 				"automaticScaleJobs": false
 			},
 			"sessionKeepAliveTimeout": 30,
-			"targetSparkConfiguration": "sparkConfiguration6"
+			"targetSparkConfiguration": "helloDescription"
 		},
 		"cells": [
 			{

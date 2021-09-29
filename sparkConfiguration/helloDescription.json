@@ -1,0 +1,11 @@
+{
+	"name": "helloDescription",
+	"properties": {
+		"configs": {
+			"Description": "s"
+		},
+		"created": "2021-09-29T14:18:24.6020000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": []
+	}
+}
