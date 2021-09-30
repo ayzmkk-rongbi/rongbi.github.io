@@ -7,10 +7,6 @@
 			"referenceName": "rongbiPool",
 			"type": "BigDataPoolReference"
 		},
-		"targetSparkConfiguration": {
-			"referenceName": "sparkConfiguration1testMemory_Copy1",
-			"type": "SparkConfigurationReference"
-		},
 		"sessionProperties": {
 			"driverMemory": "56g",
 			"driverCores": 8,
@@ -21,7 +17,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "4",
 				"spark.dynamicAllocation.maxExecutors": "4",
-				"spark.autotune.trackingId": "a84b5aaa-604f-4076-8b1a-943f76bdaa6d"
+				"spark.autotune.trackingId": "17807f23-308c-4d49-97b8-dc0c71d7b82e"
 			}
 		},
 		"metadata": {
@@ -29,7 +25,7 @@
 			"enableDebugMode": false,
 			"kernelspec": {
 				"name": "synapse_pyspark",
-				"display_name": "python"
+				"display_name": "Synapse PySpark"
 			},
 			"language_info": {
 				"name": "python"
@@ -49,8 +45,7 @@
 				"memory": 56,
 				"automaticScaleJobs": false
 			},
-			"sessionKeepAliveTimeout": 30,
-			"targetSparkConfiguration": "sparkConfiguration1testMemory_Copy1"
+			"sessionKeepAliveTimeout": 30
 		},
 		"cells": [
 			{
@@ -58,7 +53,7 @@
 				"source": [
 					"print('helloworld')"
 				],
-				"execution_count": null
+				"execution_count": 1
 			}
 		]
 	}
