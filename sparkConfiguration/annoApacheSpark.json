@@ -1,0 +1,13 @@
+{
+	"name": "annoApacheSpark",
+	"properties": {
+		"configs": {
+			"spark.streaming.backpressure.pid.minRate": "100",
+			"spark.broadcast.checksum": "true",
+			"spark.dynamicAllocation.enabled": "true"
+		},
+		"created": "2021-09-30T11:11:42.5800000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": []
+	}
+}
