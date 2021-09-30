@@ -1,0 +1,16 @@
+{
+	"name": "sparkConfiguration1testMemory_Copy1",
+	"properties": {
+		"description": "sparkConfiguration1testMemory",
+		"configs": {
+			"spark.blacklist.killBlacklistedExecutors": "tt",
+			"spark.broadcast.blockSize": "4m"
+		},
+		"created": "2021-09-30T11:09:30.9790000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": [
+			"do not delete",
+			"rongbi"
+		]
+	}
+}

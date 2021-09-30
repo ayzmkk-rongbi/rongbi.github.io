@@ -1,0 +1,12 @@
+{
+	"name": "new Configuration",
+	"properties": {
+		"description": "new Configuration",
+		"configs": {
+			"spark.broadcast.UDFCompressionThreshold": "10324"
+		},
+		"created": "2021-09-30T11:01:05.9950000+08:00",
+		"createdBy": "rongbi@microsoft.com",
+		"annotations": []
+	}
+}
