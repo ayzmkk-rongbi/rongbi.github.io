@@ -4,8 +4,10 @@
 		"configs": {
 			"spark.authenticate.enableSaslEncryption": "d"
 		},
-		"created": "2021-09-28T00:10:24.6210000+08:00",
+		"created": "2021-09-30T10:59:04.4350000+08:00",
 		"createdBy": "rongbi@microsoft.com",
-		"annotations": []
+		"annotations": [
+			"test configuration"
+		]
 	}
 }
